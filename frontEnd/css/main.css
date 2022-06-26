@@ -1,0 +1,10 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("../images/color-2174045_1280.png");
+  background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+}

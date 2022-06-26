@@ -1,0 +1,39 @@
+#micButton {
+  left: 24px;
+}
+
+#settingsCog {
+  right: 24px;
+}
+
+#songDetectionError {
+  color: #ff6961;
+  left: 50px;
+  display: none;
+}
+
+#listeningSpinner {
+  -webkit-animation: rotation 2s infinite linear;
+  left: 50px;
+  display: none;
+}
+
+.icons {
+  position: absolute;
+  top: 24px;
+  font-size: 24px;
+  color: #ffffff;
+  opacity: .8;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
