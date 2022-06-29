@@ -7,8 +7,8 @@ var ACRdefaultOptions = {
   signature_version: '1',
   data_type: 'audio',
   secure: true,
-  access_key: 'f9328e0ffdcc1d53af1b92be0538158c',
-  access_secret: 'M0N1Q8UsaFBULT24AIJ0XAAnRrrMfZUHWh8qtN8x'
+  access_key: '*****',
+  access_secret: '*****'
 }
 var YTdefaultOptions = {
   host: 'identify-eu-west-1.acrcloud.com',
@@ -16,8 +16,8 @@ var YTdefaultOptions = {
   signature_version: '1',
   data_type: 'audio',
   secure: true,
-  access_key: 'c020b1aece5adec8bc9a4bb55699a275',
-  access_secret: 'sRTMZpX8x8vLWycjj5JjIKOZv150Bvq0i1Yv1ZOb'
+  access_key: '*****',
+  access_secret: '*****'
 }
 
 const buildStringToSign = (method, uri, accessKey, dataType, signatureVersion, timestamp) => {

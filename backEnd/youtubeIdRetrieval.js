@@ -3,7 +3,7 @@ var YouTube = require('youtube-node')
 exports.searchYoutubeApi = (songName, artistName) =>
   new Promise((resolve, reject) => {
     var youTube = new YouTube()
-    youTube.setKey('AIzaSyADg3GwGlftEyAU-j9iYdRouzKsmY2e1p8')
+    youTube.setKey('*****')
     youTube.search((songName + ' by ' + artistName + ' music video'), 1, (error, result) => {
       if (error) {
         reject(error)
