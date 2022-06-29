@@ -6,8 +6,8 @@ var ddb = new AWS.DynamoDB({ apiVersion: '2012-10-17' })
 exports.uploadToS3 = (songId) =>
   new Promise(async (resolve, reject) => {
     // Enter copied or downloaded access ID and secret key here
-    const ID = 'AKIAJLNBLFIRIPMWG2WA'
-    const SECRET = '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'
+    const ID = '****'
+    const SECRET = '*****'
 
     // The name of the bucket that you have created
     const BUCKET_NAME = 'basebeatfingerprints'
